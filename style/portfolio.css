@@ -7,18 +7,19 @@
 .btn{
     width: 150px;
     height: 65px;
+    padding: 18px 35px;
     background-color: #FD6E0A;
     color: #FFF8F3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-.container{
+/* .container{
     width: 80%;
     max-width: 1280px;
     margin: 0 auto;
     border: 1px solid black;
-}
+} */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -45,7 +46,6 @@ header .nav-bar{
 .nav-bar .menu{
     display: flex;
     gap: 51px;
-    padding: 18px 35px;
     list-style: none;
     align-items: center;
     
@@ -93,3 +93,46 @@ header .nav-bar{
     max-width: 584px;
     vertical-align: middle;
 }
+
+/* ========== Avout design ============ */
+#about{
+    padding-top: 130px;
+}
+#about .about-cont{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 130px 156px;
+}.about-section h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-section p {
+    font-size: 18px;  
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.about-cont .about-info{
+    display: flex;
+    gap: 50px ;
+    justify-content: center;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+ /* ========== Footer design ============ */
+ .footer-area{
+    display: flex;
+ }
