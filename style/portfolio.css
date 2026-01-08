@@ -33,6 +33,19 @@ header{
     background-repeat: no-repeat;
     
 }
+h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 18px;
+    color: #474747;
+    line-height: 30px;
+    margin-top: 20px; 
+}
+
 /*============ Navigation bar design ==============*/
 header .nav-bar{
     display: flex;
@@ -82,8 +95,6 @@ header .nav-bar{
 }
 .social-area p{
     color: #757575;
-    font-size: 18px;
-    line-height: 30px;
     font-weight: 600px;
     margin-bottom: 30px;
 }
@@ -101,19 +112,6 @@ header .nav-bar{
     
 }
 
-.about-section h3 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #181818;
-    margin-bottom: 30px;
-    
-}
-.about-section p {
-    font-size: 18px;  
-    color: #757575;
-    margin-bottom: 30px;
-    line-height: 30px;
-}
 .container .about-info{
     display: flex;
     gap: 50px ;
@@ -132,18 +130,6 @@ header .nav-bar{
 /* ========== Skill design ============ */
 #skill{
     padding-top: 130px;
-}
-
-.skill-section h3 {
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
-    margin-bottom: 30px;
-}
-.skill-section p{
-    font-size: 18px;
-    color: #757575;
-    line-height: 30px;
 }
 .skill-box{
     display: flex;
@@ -164,12 +150,6 @@ header .nav-bar{
     color: #181818;
     margin-bottom: 20px;
 }
-.skill-card p{
-    font-size: 18px;
-    color: #757575;
-    line-height: 30px;
-    
-}
 /* ========== Resume design ============ */
 #resume{
     padding-top: 130px;
@@ -177,8 +157,7 @@ header .nav-bar{
 .resume-titel{
     font-size: 35px;
     font-weight: bold;
-    color: #181818;
-    
+    color: #181818;    
 }
 .resume-section{
     display: flex;
@@ -208,16 +187,43 @@ header .nav-bar{
     color: #757575;
     margin-top: 10px;
 }
-.resume-card p{
+/* .resume-card p{
     font-size: 18px;
     color: #474747;
     line-height: 30px;
     margin-top: 20px;
-}
+} */
 .container .btn {
     align-items: center;
 }
 /* ========== Footer design ============ */
- .footer-area{
-    display: flex;
+ #footer{
+    padding-top: 130px;
+}
+.main{
+     background-color: #FEF7F2;
+
  }
+ .footer-section{
+    display: flex;
+    gap: 116px;
+    padding: 131px 230px 0;
+ }
+ .footer-cnt{
+    max-width: 562px;
+ }
+ .social-icon{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+ }
+ .social-icon i{
+    color: #FD6E0A;
+    
+ }
+ .form input[type="text"] , textarea{
+    max-width: 461px;
+    border-radius: 5px;
+    padding: 18px 350px 30px;
+ }
+
